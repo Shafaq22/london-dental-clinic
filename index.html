@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>London Dental Clinic – Dr. Shruti Agarwal Garg | Kandivali East, Mumbai</title>
+  <meta name="description" content="London Dental Clinic by Dr. Shruti Agarwal Garg in Kandivali East, Mumbai. Advanced dental care including Laser Dentistry, 24-Hour Emergency Services, Braces, Teeth Cleaning & more. Rated 4.4★ by 119+ patients. Est. 1993." />
+  <meta name="keywords" content="London Dental Clinic, Dr Shruti Agarwal Garg, dentist Kandivali East, laser dentistry Mumbai, dental emergency Mumbai, teeth cleaning Kandivali" />
+  <meta property="og:title" content="London Dental Clinic – Dr. Shruti Agarwal Garg" />
+  <meta property="og:description" content="Premium dental care in Kandivali East, Mumbai. 30+ years of excellence. Laser Dentistry, 24-Hour Emergency, Complete Dental Care." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav" id="main-nav">
+    <div class="nav__container">
+      <a href="#hero" class="nav__logo">
+        <span class="nav__logo-icon">🦷</span>
+        <div class="nav__logo-text">
+          <span class="nav__logo-main">London Dental</span>
+          <span class="nav__logo-sub">Clinic</span>
+        </div>
+      </a>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#doctors" class="nav__link">Doctors</a></li>
+        <li><a href="#gallery" class="nav__link">Gallery</a></li>
+        <li><a href="#reviews" class="nav__link">Reviews</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <!-- Sun icon (visible in dark mode) -->
+        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2"></path>
+          <path d="M12 20v2"></path>
+          <path d="m4.93 4.93 1.41 1.41"></path>
+          <path d="m17.66 17.66 1.41 1.41"></path>
+          <path d="M2 12h2"></path>
+          <path d="M20 12h2"></path>
+          <path d="m6.34 17.66-1.41 1.41"></path>
+          <path d="m19.07 4.93-1.41 1.41"></path>
+        </svg>
+        <!-- Moon icon (visible in light mode) -->
+        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+        </svg>
+      </button>
+      <a href="tel:9819853854" class="btn btn--nav" id="nav-cta">
+        <span>📞</span> Book Appointment
+      </a>
+      <button class="nav__hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+
+    <!-- Full-width background video -->
+    <div class="hero__video-wrap">
+      <video
+        class="hero__video"
+        src="videos/london1.mp4"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="auto"
+        aria-hidden="true"
+      ></video>
+      <div class="hero__video-overlay"></div>
+    </div>
+
+    <!-- Two-column horizontal layout -->
+    <div class="hero__container">
+
+      <!-- LEFT COLUMN: all text -->
+      <div class="hero__content">
+
+        <div class="hero__badge">
+          <span class="badge badge--pulse">🟢 Open Now</span>
+          <span class="badge">Est. 1993 · 30+ Years of Excellence</span>
+        </div>
+
+        <h1 class="hero__title">
+          Your Perfect Smile <span class="gradient-text">Starts Here</span>
+        </h1>
+
+        <p class="hero__subtitle">
+          London Dental Clinic – Dr. Shruti Agarwal Garg &nbsp;|&nbsp;
+          <strong>Kandivali East, Mumbai</strong><br/>
+          Advanced dental care with a personal touch since 1993.
+        </p>
+
+        <!-- Rating + highlights in one horizontal row -->
+        <div class="hero__meta-row">
+          <div class="hero__rating">
+            <div class="stars">★★★★½</div>
+            <span class="hero__rating-text"><strong>4.4</strong> / 5 &nbsp;·&nbsp; <strong>119</strong> reviews</span>
+          </div>
+          <span class="hero__meta-divider">|</span>
+          <div class="highlight-chip" id="highlight-emergency"><span>🚨</span> 24-Hr Emergency</div>
+          <div class="highlight-chip" id="highlight-laser"><span>⚡</span> Laser Dentistry</div>
+          <div class="highlight-chip" id="highlight-years"><span>🏆</span> 30+ Years</div>
+        </div>
+
+        <!-- CTA buttons -->
+        <div class="hero__actions">
+          <a href="tel:9819853854" class="btn btn--primary btn--lg" id="hero-call-btn">
+            📞 Call: 98198 53854
+          </a>
+          <a href="#services" class="btn btn--glass btn--lg" id="hero-services-btn">
+            View Services ↓
+          </a>
+        </div>
+
+      </div>
+
+      <!-- RIGHT COLUMN: intentionally empty — video shows through -->
+      <div class="hero__visual"></div>
+
+    </div>
+
+    <div class="hero__scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+
+
+  <!-- ========== STATS BAR ========== -->
+  <section class="stats-bar" id="stats">
+    <div class="stats-bar__container">
+      <div class="stat-item" id="stat-years">
+        <span class="stat-number" data-target="30">0</span><span class="stat-suffix">+</span>
+        <span class="stat-label">Years of Excellence</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item" id="stat-reviews">
+        <span class="stat-number" data-target="119">0</span><span class="stat-suffix">+</span>
+        <span class="stat-label">Happy Patients</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item" id="stat-services">
+        <span class="stat-number" data-target="15">0</span><span class="stat-suffix">+</span>
+        <span class="stat-label">Dental Services</span>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item" id="stat-rating">
+        <span class="stat-number" data-target="4.4" data-decimal="true">0</span><span class="stat-suffix">★</span>
+        <span class="stat-label">Patient Rating</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Us</span>
+        <h2 class="section-title">A Legacy of <span class="gradient-text">Dental Excellence</span></h2>
+        <p class="section-subtitle">Serving Mumbai since 1993 with compassion, precision & cutting-edge technology</p>
+      </div>
+      <div class="about__grid">
+        <div class="about__content">
+          <p class="about__text">
+            London Dental Clinic, led by <strong>Dr. Shruti Agarwal Garg</strong>, has been a cornerstone of dental healthcare in Kandivali East, Mumbai for over three decades. Our commitment is simple: deliver world-class dental care with warmth and precision.
+          </p>
+          <p class="about__text">
+            From routine check-ups to advanced laser treatments, we offer a comprehensive spectrum of dental services for patients of all ages. Every treatment plan is customized to your unique needs, ensuring you leave with not just a healthier smile — but a confident one.
+          </p>
+          <div class="about__features">
+            <div class="feature-card" id="feature-emergency">
+              <div class="feature-card__icon">🚨</div>
+              <div>
+                <h3 class="feature-card__title">24-Hour Emergency</h3>
+                <p class="feature-card__text">Dental emergencies don't wait. Neither do we.</p>
+              </div>
+            </div>
+            <div class="feature-card" id="feature-laser">
+              <div class="feature-card__icon">⚡</div>
+              <div>
+                <h3 class="feature-card__title">Laser Dentistry</h3>
+                <p class="feature-card__text">Pain-free precision with state-of-the-art laser technology.</p>
+              </div>
+            </div>
+            <div class="feature-card" id="feature-personalized">
+              <div class="feature-card__icon">💙</div>
+              <div>
+                <h3 class="feature-card__title">Personalized Care</h3>
+                <p class="feature-card__text">Every patient gets a tailored treatment plan.</p>
+              </div>
+            </div>
+            <div class="feature-card" id="feature-computerized">
+              <div class="feature-card__icon">💻</div>
+              <div>
+                <h3 class="feature-card__title">Computerized Check-Up</h3>
+                <p class="feature-card__text">Advanced diagnostics for precise, accurate results.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about__visual">
+          <div class="about__image-card" id="about-image-card">
+            <img
+              src="https://images.jdmagicbox.com/v2/comp/mumbai/93/022pk049293/catalogue/london-dental-clinic-kandivali-east-mumbai-24-hours-dentists-6ozpqda66n.jpg"
+              alt="London Dental Clinic modern interior with dental equipment"
+              class="about__image"
+              loading="lazy"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+            />
+            <div class="about__image-fallback" style="display:none;">
+              <span>🦷</span>
+              <p>Modern Clinic Interior</p>
+            </div>
+            <div class="about__image-badge">
+              <span>🏆</span>
+              <div>
+                <strong>Verified Clinic</strong>
+                <small>JustDial Claimed</small>
+              </div>
+            </div>
+          </div>
+          <div class="about__hours-card" id="about-hours-card">
+            <h3 class="about__hours-title">🕐 Clinic Hours</h3>
+            <div class="hours-grid">
+              <span>Mon – Sun</span>
+              <span class="hours-time">7:00 AM – 10:00 PM</span>
+            </div>
+            <div class="open-now-badge">
+              <span class="pulse-dot"></span>
+              Open Now — Walk-ins Welcome
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="services section section--dark" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Offer</span>
+        <h2 class="section-title">Comprehensive <span class="gradient-text">Dental Services</span></h2>
+        <p class="section-subtitle">From prevention to advanced treatment — all under one roof</p>
+      </div>
+      <div class="services__grid" id="services-grid">
+
+        <div class="service-card" id="svc-xray">
+          <div class="service-card__img-wrap">
+            <img src="images/services/icon_xray.jpg" alt="Dental X-ray" class="service-card__img" loading="lazy" />
+          </div>
+          <h3 class="service-card__title">Dental & Oral X-ray</h3>
+          <p class="service-card__text">High-resolution digital X-rays for accurate diagnosis and treatment planning.</p>
+        </div>
+
+        <div class="service-card" id="svc-cleaning">
+          <div class="service-card__img-wrap">
+            <img src="images/services/icon_ultrasonic_cleaning.jpg" alt="Ultrasonic Teeth Cleaning" class="service-card__img" loading="lazy" />
+          </div>
+          <h3 class="service-card__title">Ultrasonic Teeth Cleaning</h3>
+          <p class="service-card__text">Professional ultrasonic scaling to remove plaque and tartar buildup effectively.</p>
+        </div>
+
+        <div class="service-card" id="svc-oral">
+          <div class="service-card__img-wrap">
+            <img src="images/services/icon_oral_cleaning.jpg" alt="Oral Cleaning" class="service-card__img" loading="lazy" />
+          </div>
+          <h3 class="service-card__title">Oral Cleaning</h3>
+          <p class="service-card__text">Thorough oral hygiene treatments to maintain and improve your dental health.</p>
+        </div>
+
+        <div class="service-card" id="svc-braces">
+          <div class="service-card__img-wrap">
+            <img src="images/services/icon_braces_removal.jpg" alt="Braces Removal" class="service-card__img" loading="lazy" />
+          </div>
+          <h3 class="service-card__title">Braces Removal</h3>
+          <p class="service-card__text">Safe and comfortable removal of braces with expert post-care guidance.</p>
+        </div>
+
+        <div class="service-card" id="svc-preventive">
+          <div class="service-card__img-wrap">
+            <img src="images/services/icon_preventive_care.jpg" alt="Advanced Preventive Care" class="service-card__img" loading="lazy" />
+          </div>
+          <h3 class="service-card__title">Advanced Preventive Care</h3>
+          <p class="service-card__text">Proactive treatments to prevent dental issues before they start.</p>
+        </div>
+
+        <div class="service-card service-card--featured" id="svc-emergency">
+          <div class="service-card__img-wrap">
+            <img src="images/services/icon_emergency.jpg" alt="24-Hour Emergency" class="service-card__img" loading="lazy" />
+          </div>
+          <h3 class="service-card__title">24-Hour Emergency Services</h3>
+          <p class="service-card__text">Round-the-clock dental emergency care — because toothaches don't wait.</p>
+          <span class="service-card__badge">Always Available</span>
+        </div>
+
+        <div class="service-card service-card--featured" id="svc-laser">
+          <div class="service-card__img-wrap">
+            <img src="images/services/icon_laser_dentistry.jpg" alt="Laser Dentistry" class="service-card__img" loading="lazy" />
+          </div>
+          <h3 class="service-card__title">Laser Dentistry</h3>
+          <p class="service-card__text">Minimally invasive, pain-free dental procedures using advanced laser technology.</p>
+          <span class="service-card__badge">Advanced</span>
+        </div>
+
+        <div class="service-card" id="svc-alignment">
+          <div class="service-card__img-wrap">
+            <img src="images/services/icon_alignment.jpg" alt="Alignment" class="service-card__img" loading="lazy" />
+          </div>
+          <h3 class="service-card__title">Alignment</h3>
+          <p class="service-card__text">Corrective dental alignment for a perfectly proportioned, beautiful smile.</p>
+        </div>
+
+        <div class="service-card" id="svc-complete">
+          <div class="service-card__img-wrap">
+            <img src="images/services/icon_complete_care.jpg" alt="Complete Dental Care" class="service-card__img" loading="lazy" />
+          </div>
+          <h3 class="service-card__title">Complete Dental Care</h3>
+          <p class="service-card__text">Comprehensive dental health solutions for the whole family at all life stages.</p>
+        </div>
+
+        <div class="service-card" id="svc-gum">
+          <div class="service-card__img-wrap">
+            <img src="images/services/icon_gum_care.jpg" alt="Gum Care" class="service-card__img" loading="lazy" />
+          </div>
+          <h3 class="service-card__title">Gum Care</h3>
+          <p class="service-card__text">Specialized periodontal treatments to keep your gums healthy and disease-free.</p>
+        </div>
+
+        <div class="service-card" id="svc-routine">
+          <div class="service-card__img-wrap">
+            <img src="images/services/icon_routine_exam.jpg" alt="Routine Examination" class="service-card__img" loading="lazy" />
+          </div>
+          <h3 class="service-card__title">Routine Examination</h3>
+          <p class="service-card__text">Regular check-ups to monitor and maintain your overall oral health.</p>
+        </div>
+
+        <div class="service-card" id="svc-filing">
+          <div class="service-card__img-wrap">
+            <img src="images/services/icon_composite_filing.jpg" alt="Composite Laser Filing" class="service-card__img" loading="lazy" />
+          </div>
+          <h3 class="service-card__title">Composite (Laser) Filing</h3>
+          <p class="service-card__text">Tooth-coloured composite fillings using laser precision for natural-looking results.</p>
+        </div>
+
+        <div class="service-card" id="svc-computerized">
+          <div class="service-card__img-wrap">
+            <img src="images/services/icon_computerized_checkup.png" alt="Computerized Dental Check-Up" class="service-card__img" loading="lazy" />
+          </div>
+          <h3 class="service-card__title">Computerized Check-Up</h3>
+          <p class="service-card__text">Digital diagnostic technology for precise analysis and accurate treatment planning.</p>
+        </div>
+
+        <div class="service-card" id="svc-camps">
+          <div class="service-card__img-wrap">
+            <img src="images/services/icon_school_camps.jpg" alt="School Dental Camps" class="service-card__img" loading="lazy" />
+          </div>
+          <h3 class="service-card__title">School Dental Camps</h3>
+          <p class="service-card__text">Community outreach dental camps helping children develop lifelong oral health habits.</p>
+        </div>
+
+        <div class="service-card" id="svc-regularclean">
+          <div class="service-card__img-wrap">
+            <img src="images/services/icon_regular_cleanup.png" alt="Regular Dental Clean Up" class="service-card__img" loading="lazy" />
+          </div>
+          <h3 class="service-card__title">Regular Clean Up</h3>
+          <p class="service-card__text">Scheduled professional cleaning sessions to maintain your oral hygiene between visits.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DOCTORS ========== -->
+  <section class="doctors section" id="doctors">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Team</span>
+        <h2 class="section-title">Meet Our <span class="gradient-text">Expert Doctors</span></h2>
+        <p class="section-subtitle">Highly qualified specialists dedicated to your dental health and wellbeing</p>
+      </div>
+      <div class="doctors__grid">
+        <div class="doctor-card" id="doctor-shruti">
+          <div class="doctor-card__info">
+            <h3 class="doctor-card__name">Dr. Shruti Agarwal Garg</h3>
+            <span class="doctor-card__spec">Lead Dentist & Clinic Director</span>
+            <div class="doctor-card__rating">
+              <span class="stars-sm">★★★★★</span>
+              <span>4.4 Rating</span>
+            </div>
+            <p class="doctor-card__bio">
+              With over 30 years of experience at London Dental Clinic, Dr. Shruti Agarwal Garg leads a team committed to delivering compassionate, high-quality dental care to patients of all ages in Mumbai.
+            </p>
+            <div class="doctor-card__tags">
+              <span class="tag">General Dentistry</span>
+              <span class="tag">Laser Dentistry</span>
+              <span class="tag">Preventive Care</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="doctor-card" id="doctor-manish">
+          <div class="doctor-card__info">
+            <h3 class="doctor-card__name">Dr. Manish Garg</h3>
+            <span class="doctor-card__spec">Cardiothoracic & Vascular Surgeon</span>
+            <div class="doctor-card__rating">
+              <span class="stars-sm">★★★★★</span>
+              <span>4.8 Rating</span>
+            </div>
+            <p class="doctor-card__bio">
+              MCh (Cardio Thoracic & Vascular Surgery) from Topiwala National Medical College, with MS in General Surgery from B. J. Medical College, Pune and MBBS from Maharashtra University of Health Sciences.
+            </p>
+            <div class="doctor-card__tags">
+              <span class="tag">MCh – CVTS</span>
+              <span class="tag">MS – General Surgery</span>
+              <span class="tag">MBBS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="doctor-card" id="doctor-kavita">
+          <div class="doctor-card__info">
+            <h3 class="doctor-card__name">Dr. Kavita Agarwal</h3>
+            <span class="doctor-card__spec">General Physician</span>
+            <div class="doctor-card__rating">
+              <span class="stars-sm">★★★★★</span>
+              <span>4.8 Rating</span>
+            </div>
+            <p class="doctor-card__bio">
+              MBBS from Patna Medical College (1982). An experienced General Physician providing holistic healthcare support alongside the clinic's dental specialists for comprehensive patient well-being.
+            </p>
+            <div class="doctor-card__tags">
+              <span class="tag">MBBS</span>
+              <span class="tag">General Medicine</span>
+              <span class="tag">40+ Years Exp.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY ========== -->
+  <section class="gallery section section--dark" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Clinic</span>
+        <h2 class="section-title">A Glimpse of Our <span class="gradient-text">Clinic</span></h2>
+        <p class="section-subtitle">State-of-the-art facilities designed for your comfort</p>
+      </div>
+      <div class="gallery__grid" id="gallery-grid">
+        <div class="gallery-item gallery-item--featured" id="gallery-1">
+          <img
+            src="https://images.jdmagicbox.com/v2/comp/mumbai/93/022pk049293/catalogue/london-dental-clinic-kandivali-east-mumbai-24-hours-dentists-6ozpqda66n.jpg"
+            alt="Modern dental clinic interior with equipment and awards"
+            loading="lazy"
+            onerror="this.parentElement.classList.add('gallery-item--error')"
+          />
+          <div class="gallery-item__overlay">
+            <span>Clinic Interior</span>
+          </div>
+        </div>
+        <div class="gallery-item" id="gallery-2">
+          <img
+            src="https://images.jdmagicbox.com/v2/comp/mumbai/93/022pk049293/catalogue/agarwals-medical-and-dental-centre-kandivali-east-mumbai-24-hours-dentists-0i2vm.jpg"
+            alt="Dental care promotion"
+            loading="lazy"
+            onerror="this.parentElement.classList.add('gallery-item--error')"
+          />
+          <div class="gallery-item__overlay">
+            <span>Our Team</span>
+          </div>
+        </div>
+        <div class="gallery-item" id="gallery-3">
+          <img
+            src="https://images.jdmagicbox.com/v2/comp/mumbai/93/022pk049293/catalogue/london-dental-clinic-kandivali-east-mumbai-24-hours-dentists-7oqphljmi0.jpg"
+            alt="Clinic interior"
+            loading="lazy"
+            onerror="this.parentElement.classList.add('gallery-item--error')"
+          />
+          <div class="gallery-item__overlay">
+            <span>Treatment Room</span>
+          </div>
+        </div>
+        <div class="gallery-item" id="gallery-4">
+          <img
+            src="https://images.jdmagicbox.com/v2/comp/mumbai/93/022pk049293/catalogue/agarwals-medical-and-dental-centre-kandivali-east-mumbai-24-hours-dentists-ta763.jpg"
+            alt="Clinic facility"
+            loading="lazy"
+            onerror="this.parentElement.classList.add('gallery-item--error')"
+          />
+          <div class="gallery-item__overlay">
+            <span>Facility</span>
+          </div>
+        </div>
+        <div class="gallery-item" id="gallery-5">
+          <img
+            src="https://images.jdmagicbox.com/v2/comp/mumbai/93/022pk049293/catalogue/agarwals-medical-and-dental-centre-kandivali-east-mumbai-24-hours-dentists-y9wzo.jpg"
+            alt="Dental equipment"
+            loading="lazy"
+            onerror="this.parentElement.classList.add('gallery-item--error')"
+          />
+          <div class="gallery-item__overlay">
+            <span>Equipment</span>
+          </div>
+        </div>
+        <div class="gallery-item" id="gallery-6">
+          <img
+            src="https://images.jdmagicbox.com/v2/comp/mumbai/93/022pk049293/catalogue/london-dental-clinic-kandivali-east-mumbai-24-hours-dentists-imi0lbt6wj.jpg"
+            alt="Clinic setup"
+            loading="lazy"
+            onerror="this.parentElement.classList.add('gallery-item--error')"
+          />
+          <div class="gallery-item__overlay">
+            <span>Clinic Setup</span>
+          </div>
+        </div>
+        <div class="gallery-item" id="gallery-7">
+          <img
+            src="https://images.jdmagicbox.com/v2/comp/mumbai/93/022pk049293/catalogue/agarwals-medical-and-dental-centre-kandivali-east-mumbai-24-hours-dentists-erzjh.jpg"
+            alt="Interior view"
+            loading="lazy"
+            onerror="this.parentElement.classList.add('gallery-item--error')"
+          />
+          <div class="gallery-item__overlay">
+            <span>Interior</span>
+          </div>
+        </div>
+        <div class="gallery-item" id="gallery-8">
+          <img
+            src="https://images.jdmagicbox.com/v2/comp/mumbai/93/022pk049293/catalogue/agarwals-medical-and-dental-centre-kandivali-east-mumbai-24-hours-dentists-zm0ng.jpg"
+            alt="Clinic view"
+            loading="lazy"
+            onerror="this.parentElement.classList.add('gallery-item--error')"
+          />
+          <div class="gallery-item__overlay">
+            <span>Reception</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== REVIEWS ========== -->
+  <section class="reviews section" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Patient Reviews</span>
+        <h2 class="section-title">What Our Patients <span class="gradient-text">Say</span></h2>
+        <div class="reviews__overall">
+          <div class="reviews__score">4.4</div>
+          <div>
+            <div class="stars stars--lg">★★★★½</div>
+            <p>Based on 119 reviews on JustDial</p>
+          </div>
+        </div>
+      </div>
+      <div class="reviews__slider" id="reviews-slider">
+        <div class="reviews__track" id="reviews-track">
+          <div class="review-card" id="review-1">
+            <div class="review-card__header">
+              <div class="review-card__avatar">R</div>
+              <div>
+                <div class="review-card__name">Rahul M.</div>
+                <div class="stars-sm">★★★★★</div>
+              </div>
+              <span class="review-card__verified">✓ Verified</span>
+            </div>
+            <p class="review-card__text">"Absolutely fantastic experience. Dr. Shruti is thorough and gentle. The clinic is well-equipped and the staff is warm and welcoming. My teeth cleaning was painless and quick!"</p>
+            <div class="review-card__footer">Kandivali East</div>
+          </div>
+          <div class="review-card" id="review-2">
+            <div class="review-card__header">
+              <div class="review-card__avatar" style="background: linear-gradient(135deg, #f093fb, #f5576c);">P</div>
+              <div>
+                <div class="review-card__name">Priya S.</div>
+                <div class="stars-sm">★★★★★</div>
+              </div>
+              <span class="review-card__verified">✓ Verified</span>
+            </div>
+            <p class="review-card__text">"I had a dental emergency at night and they attended to me immediately. The 24-hour service is a lifesaver. Professional, caring, and incredibly efficient. Highly recommend!"</p>
+            <div class="review-card__footer">Borivali West</div>
+          </div>
+          <div class="review-card" id="review-3">
+            <div class="review-card__header">
+              <div class="review-card__avatar" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">A</div>
+              <div>
+                <div class="review-card__name">Amit K.</div>
+                <div class="stars-sm">★★★★★</div>
+              </div>
+              <span class="review-card__verified">✓ Verified</span>
+            </div>
+            <p class="review-card__text">"The laser dentistry treatment was impressive — completely pain-free! Dr. Shruti explained everything clearly and made me feel at ease. Best dental clinic in Kandivali!"</p>
+            <div class="review-card__footer">Kandivali East</div>
+          </div>
+          <div class="review-card" id="review-4">
+            <div class="review-card__header">
+              <div class="review-card__avatar" style="background: linear-gradient(135deg, #43e97b, #38f9d7);">S</div>
+              <div>
+                <div class="review-card__name">Sunita D.</div>
+                <div class="stars-sm">★★★★★</div>
+              </div>
+              <span class="review-card__verified">✓ Verified</span>
+            </div>
+            <p class="review-card__text">"Been visiting London Dental Clinic for years. The computerized check-up technology is impressive. Doctor is very knowledgeable and explains treatment options clearly. 5 stars!"</p>
+            <div class="review-card__footer">Malad East</div>
+          </div>
+          <div class="review-card" id="review-5">
+            <div class="review-card__header">
+              <div class="review-card__avatar" style="background: linear-gradient(135deg, #fa709a, #fee140);">V</div>
+              <div>
+                <div class="review-card__name">Vikram T.</div>
+                <div class="stars-sm">★★★★☆</div>
+              </div>
+              <span class="review-card__verified">✓ Verified</span>
+            </div>
+            <p class="review-card__text">"Great clinic with modern equipment. The braces removal process was smooth and professional. Staff is friendly and the appointment system works well. Would recommend to everyone."</p>
+            <div class="review-card__footer">Dahisar</div>
+          </div>
+          <div class="review-card" id="review-6">
+            <div class="review-card__header">
+              <div class="review-card__avatar" style="background: linear-gradient(135deg, #a18cd1, #fbc2eb);">N</div>
+              <div>
+                <div class="review-card__name">Neha P.</div>
+                <div class="stars-sm">★★★★★</div>
+              </div>
+              <span class="review-card__verified">✓ Verified</span>
+            </div>
+            <p class="review-card__text">"Took my entire family here. The doctor was patient with my kids and made them comfortable. Gum care treatment was excellent. The clinic hours 7AM-10PM are so convenient for working families!"</p>
+            <div class="review-card__footer">Kandivali East</div>
+          </div>
+        </div>
+      </div>
+      <div class="reviews__nav" id="reviews-nav">
+        <button class="reviews__btn" id="reviews-prev" aria-label="Previous review">←</button>
+        <div class="reviews__dots" id="reviews-dots"></div>
+        <button class="reviews__btn" id="reviews-next" aria-label="Next review">→</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHY US ========== -->
+  <section class="why-us section section--dark" id="why-us">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Why Choose Us</span>
+        <h2 class="section-title">The London Dental <span class="gradient-text">Difference</span></h2>
+      </div>
+      <div class="why-us__grid">
+        <div class="why-card" id="why-1">
+          <div class="why-card__number">01</div>
+          <div class="why-card__icon">🏆</div>
+          <h3 class="why-card__title">30+ Years of Trust</h3>
+          <p class="why-card__text">Established in 1993, we've built our reputation on consistent excellence and patient satisfaction over three decades.</p>
+        </div>
+        <div class="why-card" id="why-2">
+          <div class="why-card__number">02</div>
+          <div class="why-card__icon">⚡</div>
+          <h3 class="why-card__title">Advanced Technology</h3>
+          <p class="why-card__text">From laser dentistry to computerized diagnostics, we use the latest technology for superior treatment outcomes.</p>
+        </div>
+        <div class="why-card" id="why-3">
+          <div class="why-card__number">03</div>
+          <div class="why-card__icon">🚨</div>
+          <h3 class="why-card__title">24-Hour Availability</h3>
+          <p class="why-card__text">Dental emergencies can happen anytime. Our round-the-clock emergency service ensures you're never left without care.</p>
+        </div>
+        <div class="why-card" id="why-4">
+          <div class="why-card__number">04</div>
+          <div class="why-card__icon">👨‍👩‍👧‍👦</div>
+          <h3 class="why-card__title">Family-Friendly</h3>
+          <p class="why-card__text">Services for all ages, from children's dental camps to senior care — we're your family's lifelong dental partner.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get in Touch</span>
+        <h2 class="section-title">Visit Us or <span class="gradient-text">Book a Call</span></h2>
+        <p class="section-subtitle">We're conveniently located in Kandivali East, easily accessible by public transport</p>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__info" id="contact-info">
+          <div class="contact-block" id="contact-phone">
+            <div class="contact-block__icon">📞</div>
+            <div>
+              <h3 class="contact-block__label">Phone</h3>
+              <a href="tel:9819853854" class="contact-block__value">98198 53854</a>
+            </div>
+          </div>
+          <div class="contact-block" id="contact-address">
+            <div class="contact-block__icon">📍</div>
+            <div>
+              <h3 class="contact-block__label">Address</h3>
+              <p class="contact-block__value">Gokul Heaven Building,<br/>Kandivali East,<br/>Near Western Express Highway,<br/>Mumbai – 400101</p>
+            </div>
+          </div>
+          <div class="contact-block" id="contact-hours">
+            <div class="contact-block__icon">🕐</div>
+            <div>
+              <h3 class="contact-block__label">Hours</h3>
+              <p class="contact-block__value">Monday – Sunday<br/>7:00 AM – 10:00 PM</p>
+            </div>
+          </div>
+          <div class="contact-block" id="contact-payment">
+            <div class="contact-block__icon">💳</div>
+            <div>
+              <h3 class="contact-block__label">Payment</h3>
+              <p class="contact-block__value">Cash Accepted</p>
+            </div>
+          </div>
+          <a href="tel:9819853854" class="btn btn--primary btn--block" id="contact-call-btn">
+            📞 Call Now: 98198 53854
+          </a>
+          <a
+            href="https://maps.google.com/?q=19.2099017,72.867211"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn--outline btn--block"
+            id="contact-map-btn"
+          >
+            🗺️ Get Directions
+          </a>
+        </div>
+        <div class="contact__map" id="contact-map">
+          <iframe
+            src="https://maps.google.com/maps?q=19.2099017,72.867211&z=16&output=embed"
+            width="100%"
+            height="100%"
+            style="border:0; border-radius: 16px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="London Dental Clinic location map"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="footer__container">
+      <div class="footer__brand">
+        <a href="#hero" class="nav__logo">
+          <span class="nav__logo-icon">🦷</span>
+          <div class="nav__logo-text">
+            <span class="nav__logo-main">London Dental</span>
+            <span class="nav__logo-sub">Clinic</span>
+          </div>
+        </a>
+        <p class="footer__tagline">Your smile is our passion. Serving Mumbai since 1993.</p>
+        <div class="footer__rating">
+          <span class="stars-sm">★★★★½</span>
+          <span>4.4/5 — 119 Reviews</span>
+        </div>
+      </div>
+      <div class="footer__links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__services">
+        <h4>Key Services</h4>
+        <ul>
+          <li>Laser Dentistry</li>
+          <li>24-Hour Emergency</li>
+          <li>Teeth Cleaning</li>
+          <li>Braces Removal</li>
+          <li>Gum Care</li>
+          <li>Dental X-ray</li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4>Contact</h4>
+        <p>📞 <a href="tel:9819853854">98198 53854</a></p>
+        <p>📍 Gokul Heaven Building,<br/>Kandivali East, Mumbai – 400101</p>
+        <p>🕐 7:00 AM – 10:00 PM, Daily</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2024 London Dental Clinic – Dr. Shruti Agarwal Garg. All Rights Reserved.</p>
+      <p>Kandivali East, Mumbai | Near Western Express Highway</p>
+    </div>
+  </footer>
+
+  <!-- Floating CTA -->
+  <a href="tel:9819853854" class="floating-cta" id="floating-cta" aria-label="Call London Dental Clinic">
+    📞
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
